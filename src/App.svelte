@@ -21,7 +21,6 @@
 	import Kaggle from './components/Kaggle.svelte';
 	import GoogleDataset from './components/GoogleDataset.svelte';
 	import DataGov from './components/DataGov.svelte';
-	import IndiaData from './components/IndiaData.svelte';
 
 
 
@@ -75,7 +74,6 @@
 	<Kaggle {cardSettigns}/>
 	<GoogleDataset {cardSettigns}/>
 	<DataGov {cardSettigns}/>
-	<IndiaData {cardSettigns}/>
 </div>
 
 <style lang="postcss" global>
