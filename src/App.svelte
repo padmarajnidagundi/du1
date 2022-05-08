@@ -34,6 +34,12 @@
 
 <SpeechRecognition />
 
+	<center>
+<h2>Welcome to the DullUser.Com One Page Search Tool. Bookmark this page :-)</h2>
+<p>A very handy online searching tool where you can visit and search your favorite daily use websites in one click. You don't need to open website in another browser tab, search and type for text.</p>
+	</center>
+
+
 <div class="text-3xl leading-tight text-center bg-gray-300 text-gray-700">
 	<span class="text-xl inline-block py-2 px-10 leading-none text-center whitespace-nowrap align-baseline font-bold bg-slate-600 text-white rounded-full mb-3 mt-3">Developer</span>
 </div>
@@ -75,6 +81,12 @@
 	<GoogleDataset {cardSettigns}/>
 	<DataGov {cardSettigns}/>
 </div>
+
+<p></p><br>
+	<center>
+<h2>Copyright ©2022 DullUser.Com | Concept by Padmaraj & Rahul | Privacy Policy | Terms of Use | Manage Preferences | Sitemap | About</h2>
+<p>In 1 month time we saved 20000 Work hours serving 10000 online users.</p>
+	</center>
 
 <style lang="postcss" global>
 	@tailwind base;
