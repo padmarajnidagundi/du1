@@ -84,8 +84,9 @@
 
 <p></p><br>
 	<center>
-<h2>Copyright ©2022 DullUser.Com | Concept by Padmaraj & Rahul | Privacy Policy | Terms of Use | Manage Preferences | Sitemap | About</h2>
+<h2>Copyright ©2022 DullUser.Com | info@dulluser.com | Concept by Padmaraj & Rahul | Privacy Policy | Terms of Use | Manage Preferences | Sitemap | About</h2>
 <p>In 1 month time we saved 20000 Work hours serving 10000 online users.</p>
+<a href="https://twitter.com/UserDull?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @UserDull</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 	</center>
 
 <style lang="postcss" global>
