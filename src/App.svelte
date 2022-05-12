@@ -21,7 +21,11 @@
 	import Kaggle from './components/Kaggle.svelte';
 	import GoogleDataset from './components/GoogleDataset.svelte';
 	import DataGov from './components/DataGov.svelte';
-
+	import GoogleScholar from './components/GoogleScholar.svelte';
+	import BaseSearch from './components/BaseSearch.svelte';
+	import CoreSearch from './components/CoreSearch.svelte';
+	import SemanticScholar from './components/SemanticScholar.svelte';
+	import BaiduScholar from './components/BaiduScholar.svelte';
 
 
 	let cardSettigns = {
@@ -41,7 +45,7 @@
 
 
 <div class="text-3xl leading-tight text-center bg-gray-300 text-gray-700">
-	<span class="text-xl inline-block py-2 px-10 leading-none text-center whitespace-nowrap align-baseline font-bold bg-slate-600 text-white rounded-full mb-3 mt-3">Developer</span>
+	<span class="text-xl inline-block py-2 px-10 leading-none text-center whitespace-nowrap align-baseline font-bold bg-slate-600 text-white rounded-full mb-3 mt-3">Developer Search</span>
 </div>
 
 <div class="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 mt-5 ml-5">
@@ -58,7 +62,7 @@
 </div>
 
 <div class="text-3xl leading-tight text-center bg-gray-300 text-gray-700 mt-5 mb-5">
-	<span class="text-xl inline-block py-2 px-10 leading-none text-center whitespace-nowrap align-baseline font-bold bg-slate-600 text-white rounded-full mb-3 mt-3">General</span>
+	<span class="text-xl inline-block py-2 px-10 leading-none text-center whitespace-nowrap align-baseline font-bold bg-slate-600 text-white rounded-full mb-3 mt-3">General Search</span>
 </div>
 
 <div class="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 mt-5 ml-5">
@@ -73,13 +77,25 @@
 </div>
 
 <div class="text-3xl leading-tight text-center bg-gray-300 text-gray-700 mt-5 mb-5">
-	<span class="text-xl inline-block py-2 px-10 leading-none text-center whitespace-nowrap align-baseline font-bold bg-slate-600 text-white rounded-full mb-3 mt-3">Data Science</span>
+	<span class="text-xl inline-block py-2 px-10 leading-none text-center whitespace-nowrap align-baseline font-bold bg-slate-600 text-white rounded-full mb-3 mt-3">Data Science Search</span>
 </div>
 
 <div class="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 mt-5 ml-5">
 	<Kaggle {cardSettigns}/>
 	<GoogleDataset {cardSettigns}/>
 	<DataGov {cardSettigns}/>
+</div>
+
+<div class="text-3xl leading-tight text-center bg-gray-300 text-gray-700">
+	<span class="text-xl inline-block py-2 px-10 leading-none text-center whitespace-nowrap align-baseline font-bold bg-slate-600 text-white rounded-full mb-3 mt-3">Scientific Search</span>
+</div>
+
+<div class="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 mt-5 ml-5">
+	<GoogleScholar {cardSettigns}/>
+	<BaseSearch {cardSettigns}/>
+	<CoreSearch {cardSettigns}/>
+	<SemanticScholar {cardSettigns}/>
+	<BaiduScholar {cardSettigns}/>
 </div>
 
 <p></p><br>
