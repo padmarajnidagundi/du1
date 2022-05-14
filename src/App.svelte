@@ -39,7 +39,7 @@
 <SpeechRecognition />
 
 	<center>
-<h2>Welcome to the DullUser.Com One Page Search Tool. Bookmark this page :-)</h2>
+<h2>Welcome to the DullUser.Com Web 3.0 search engine. One page search tool. Bookmark this page ⚡</h2>
 <p>A very handy online searching tool where you can visit and search your favorite daily use websites in one click. You don't need to open website in another browser tab, search and type for text.</p>
 	</center>
 
